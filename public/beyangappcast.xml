@@ -1,0 +1,24 @@
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<channel>
+<title>App Updates</title>
+<description>Updates for Android and iOS apps.</description>
+<!--  Android App Update  -->
+<item>
+<title>Android App Version 1.0.3</title>
+<sparkle:version>1.0.3</sparkle:version>
+<sparkle:minimumSystemVersion>6.0</sparkle:minimumSystemVersion>
+<pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
+<enclosure url="https://play.google.com/store/apps/details?id=com.digitu.beyang" sparkle:version="1.0.3" sparkle:os="android" type="application/vnd.android.package-archive"/>
+<sparkle:tags> <sparkle:criticalUpdate /> </sparkle:tags> 
+</item>
+<!--  iOS App Update  -->
+<item>
+<title>iOS App Version 1.2</title>
+<sparkle:version>1.2</sparkle:version>
+<sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+<pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
+<enclosure url="https://apps.apple.com/tn/app/beyang/id6445955335" sparkle:version="1.2" sparkle:os="iOS" type="application/octet-stream"/>
+<sparkle:tags> <sparkle:criticalUpdate /> </sparkle:tags> 
+</item>
+</channel>
+</rss>
